@@ -19,13 +19,19 @@ header {
     background-color: #009246; /* Green */
     padding: 10px;
     color: #FFFFFF; /* White text */
+    text-align: center; /* Center align text */
 }
 
 /* Navigation styles */
+nav {
+    text-align: center; /* Center align navigation */
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline-block; /* Display navigation items inline */
 }
 
 nav ul li {
@@ -59,6 +65,7 @@ section .container {
 #welcome {
     background-color: #CE2B37; /* Red */
     color: #FFFFFF; /* White text */
+    padding: 50px 0; /* Increase padding for better spacing */
 }
 
 /* Footer styles */
@@ -68,3 +75,4 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
