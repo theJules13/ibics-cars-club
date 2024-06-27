@@ -169,4 +169,40 @@ nav ul li a:hover {
     padding: 10px 20px;
     background-color: #009246; /* Green */
     color: #FFFFFF; /* White text */
-    border: non
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#newsletter button:hover {
+    background-color: #007F3E;
+}
+
+/* Footer styles */
+footer {
+    background-color: #CE2B37; /* Red */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer .social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+footer .social-links li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+footer .social-links li a:hover {
+    color: #FFFF99; /* Light yellow on hover */
+}
