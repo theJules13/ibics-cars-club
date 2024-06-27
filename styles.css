@@ -23,15 +23,10 @@ header {
 }
 
 /* Navigation styles */
-nav {
-    text-align: center; /* Center align navigation */
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block; /* Display navigation items inline */
 }
 
 nav ul li {
@@ -50,13 +45,13 @@ nav ul li a:hover {
 }
 
 /* Main section styles */
-section {
+.section {
     padding: 20px;
-    text-align: center; /* Center align text */
+    text-align: justify; /* Justify text */
 }
 
 /* Container inside section */
-section .container {
+.section .container {
     max-width: 800px; /* Adjust max-width as needed */
     margin: 0 auto; /* Center the container horizontally */
 }
@@ -65,7 +60,6 @@ section .container {
 #welcome {
     background-color: #CE2B37; /* Red */
     color: #FFFFFF; /* White text */
-    padding: 50px 0; /* Increase padding for better spacing */
 }
 
 /* Footer styles */
@@ -75,4 +69,3 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
