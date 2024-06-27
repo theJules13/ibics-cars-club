@@ -19,7 +19,6 @@ header {
     background-color: #009246; /* Green */
     padding: 10px;
     color: #FFFFFF; /* White text */
-    text-align: center; /* Center align header content */
 }
 
 /* Navigation styles */
@@ -56,43 +55,16 @@ section .container {
     margin: 0 auto; /* Center the container horizontally */
 }
 
-/* Contact section */
-#contact {
+/* Welcome section */
+#welcome {
     background-color: #CE2B37; /* Red */
     color: #FFFFFF; /* White text */
 }
 
-#contact h2 {
-    color: #009246; /* Green */
-    margin-bottom: 20px;
-}
-
-#contact ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#contact ul li {
-    margin-bottom: 10px;
-}
-
-#contact ul li strong {
-    color: #009246; /* Green */
-}
-
-#contact a {
-    color: #FFFFFF; /* White text */
-}
-
-#contact a:hover {
-    color: #CE2B37; /* Red on hover */
-}
-
 /* Footer styles */
 footer {
-    background-color: #009246; /* Green */
+    background-color: #CE2B37; /* Red */
     color: #FFFFFF; /* White text */
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
 }
-
