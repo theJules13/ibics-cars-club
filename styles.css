@@ -1,12 +1,17 @@
 /* styles.css */
 
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* Body and background */
 body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF; /* White background */
     color: #000000; /* Black text */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
 }
 
 /* Header styles */
@@ -40,44 +45,22 @@ nav ul li a:hover {
 }
 
 /* Main section styles */
-section {
-    padding: 20px;
+section#welcome {
+    background-color: #CE2B37; /* Red */
+    color: #FFFFFF; /* White text */
     text-align: center; /* Center align text */
+    padding: 50px 0; /* Vertical padding */
 }
 
 /* Container inside section */
-section .container {
+section#welcome .container {
     max-width: 800px; /* Adjust max-width as needed */
     margin: 0 auto; /* Center the container horizontally */
 }
 
-/* Contact information styles */
-section#contact {
-    background-color: #CE2B37; /* Red */
-    color: #FFFFFF; /* White text */
-    padding: 20px;
-}
-
-section#contact h2, section#contact h3 {
-    color: #FFFFFF; /* White text for headings */
-}
-
-section#contact ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-section#contact ul li {
-    margin-bottom: 10px;
-}
-
-section#contact ul li strong {
-    font-weight: bold;
-}
-
 /* Footer styles */
 footer {
-    background-color: #CE2B37; /* Red */
+    background-color: #009246; /* Green */
     color: #FFFFFF; /* White text */
     text-align: center;
     padding: 10px;
