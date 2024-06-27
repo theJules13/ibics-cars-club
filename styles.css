@@ -17,31 +17,45 @@ body {
 /* Header styles */
 header {
     background-color: #009246; /* Green */
-    padding: 10px;
-    color: #FFFFFF; /* White text */
-    text-align: center; /* Center align text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    max-width: 200px;
+    margin-bottom: 10px;
 }
 
 /* Navigation styles */
 nav ul {
     list-style-type: none;
-    margin: 0;
+    display: flex;
+    justify-content: center;
     padding: 0;
+    background-color: #FFFFFF; /* White background */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #FFFFFF; /* White text */
+    color: #000000; /* Black text */
     text-decoration: none;
     padding: 10px;
+    display: block;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
     background-color: #CE2B37; /* Red on hover */
+    color: #FFFFFF; /* White text on hover */
 }
 
 /* Main section styles */
@@ -60,6 +74,17 @@ nav ul li a:hover {
 #welcome {
     background-color: #CE2B37; /* Red */
     color: #FFFFFF; /* White text */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#welcome h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#welcome p {
+    font-size: 1.2em;
 }
 
 /* Footer styles */
