@@ -96,31 +96,77 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Other section styles */
-.section h2 {
-    font-size: 2em;
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #CE2B37;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #CE2B37;
+    color: #FFFFFF;
+    border-color: #CE2B37;
+}
+
+/* Gallery section */
+#gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 45%;
+    border-radius: 5px;
+}
+
+/* Testimonials section */
+#testimonials .testimonial {
+    background-color: #FFFFFF;
+    padding: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.section p, .section ul {
-    font-size: 1.1em;
-    line-height: 1.8;
-    margin-bottom: 20px;
+#testimonials .testimonial p {
+    font-style: italic;
 }
 
-.section ul {
-    padding-left: 20px;
+/* Events section */
+#events .events-list {
+    list-style-type: none;
 }
 
-.section ul li {
+#events .events-list li {
     margin-bottom: 10px;
 }
 
-/* Footer styles */
-footer {
-    background-color: #CE2B37; /* Red */
-    color: #FFFFFF; /* White text */
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+/* Newsletter section */
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+#newsletter button {
+    padding: 10px 20px;
+    background-color: #009246; /* Green */
+    color: #FFFFFF; /* White text */
+    border: non
