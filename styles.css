@@ -5,6 +5,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #FFFFFF; /* White background */
     color: #000000; /* Black text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 /* Header styles */
@@ -12,7 +14,7 @@ header {
     background-color: #009246; /* Green */
     padding: 10px;
     color: #FFFFFF; /* White text */
-    text-align: center;
+    text-align: center; /* Center align header content */
 }
 
 /* Navigation styles */
@@ -40,6 +42,37 @@ nav ul li a:hover {
 /* Main section styles */
 section {
     padding: 20px;
+    text-align: center; /* Center align text */
+}
+
+/* Container inside section */
+section .container {
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Contact information styles */
+section#contact {
+    background-color: #CE2B37; /* Red */
+    color: #FFFFFF; /* White text */
+    padding: 20px;
+}
+
+section#contact h2, section#contact h3 {
+    color: #FFFFFF; /* White text for headings */
+}
+
+section#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#contact ul li {
+    margin-bottom: 10px;
+}
+
+section#contact ul li strong {
+    font-weight: bold;
 }
 
 /* Footer styles */
