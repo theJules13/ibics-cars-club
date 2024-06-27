@@ -1,80 +1,51 @@
-/* Reset default browser styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* styles.css */
 
-/* Global styles */
+/* Body and background */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
+/* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2em;
+    background-color: #009246; /* Green */
+    padding: 10px;
+    color: #FFFFFF; /* White text */
     text-align: center;
 }
 
+/* Navigation styles */
 nav ul {
     list-style-type: none;
-    text-align: center;
+    margin: 0;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #FFFFFF; /* White text */
     text-decoration: none;
-    font-size: 1.2em;
+    padding: 10px;
 }
 
-main {
-    padding: 20px 0;
+nav ul li a:hover {
+    background-color: #CE2B37; /* Red on hover */
 }
 
-.section {
-    padding: 40px 0;
-    text-align: center;
+/* Main section styles */
+section {
+    padding: 20px;
 }
 
-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-section p {
-    font-size: 1.1em;
-}
-
+/* Footer styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #CE2B37; /* Red */
+    color: #FFFFFF; /* White text */
     text-align: center;
-}
-
-footer p {
-    margin: 0;
-    font-size: 1em;
+    padding: 10px;
 }
