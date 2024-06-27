@@ -45,17 +45,47 @@ nav ul li a:hover {
 }
 
 /* Main section styles */
-section#welcome {
-    background-color: #CE2B37; /* Red */
-    color: #FFFFFF; /* White text */
+section {
+    padding: 20px;
     text-align: center; /* Center align text */
-    padding: 50px 0; /* Vertical padding */
 }
 
 /* Container inside section */
-section#welcome .container {
+section .container {
     max-width: 800px; /* Adjust max-width as needed */
     margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Contact section */
+#contact {
+    background-color: #CE2B37; /* Red */
+    color: #FFFFFF; /* White text */
+}
+
+#contact h2 {
+    color: #009246; /* Green */
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul li strong {
+    color: #009246; /* Green */
+}
+
+#contact a {
+    color: #FFFFFF; /* White text */
+}
+
+#contact a:hover {
+    color: #CE2B37; /* Red on hover */
 }
 
 /* Footer styles */
@@ -65,3 +95,4 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
